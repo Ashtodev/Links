@@ -61,8 +61,7 @@
 
   function cardSearchText(card) {
     var title = card.querySelector('.card__title');
-    var index = card.querySelector('.card__index');
-    return normalize((title ? title.textContent : '') + ' ' + (index ? index.textContent : ''));
+    return normalize(title ? title.textContent : '');
   }
 
   function filterCards() {

@@ -389,12 +389,7 @@ body {
 }
 
 .card__index {
-  position: absolute;
-  bottom: 11px;
-  left: 15px;
-  font-size: 13px;
-  line-height: 1.5;
-  letter-spacing: 0.2px;
+  margin-right: 6px;
   color: var(--card-index);
 }
 
@@ -555,10 +550,6 @@ body {
   .card__line--bottom {
     top: 168px;
     left: 7px;
-  }
-
-  .card__index {
-    display: none;
   }
 
   .card__title {
